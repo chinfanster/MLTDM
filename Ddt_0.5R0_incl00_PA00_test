@@ -1,0 +1,28 @@
+##Input info
+
+#TD map
+TD_map_A ../ImagA/TDmap_0.5R0_incl0.0_pa0.0.fits
+TD_map_B ../ImagB/TDmap_0.5R0_incl0.0_pa0.0.fits
+TD_map_C ../ImagC/TDmap_0.5R0_incl0.0_pa0.0.fits
+TD_map_D ../ImagD/TDmap_0.5R0_incl0.0_pa0.0.fits
+
+#Fermat potential diff
+tau_BA ../Fermat/total_BA
+tau_CA ../Fermat/total_CA
+tau_DA ../Fermat/total_DA
+
+#time delays 
+TD_BA 1.5 1.5
+TD_CA -0.5 1.5
+TD_DA 90.5 1.5
+
+#Time delay boundary
+TD_boundary_min 0   
+TD_boundary_max 6000
+
+##MCMC setup
+
+N_parameters 8
+N_walkers 100
+burn_in 100  #don't change this unless you know what it means
+N_steps 2000

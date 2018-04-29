@@ -1,0 +1,22 @@
+##Input info
+
+#Fermat potential diff
+tau_BA ../Fermat/total_BA
+tau_CA ../Fermat/total_CA
+tau_DA ../Fermat/total_DA
+
+#time delays 
+TD_BA 1.5 1.5
+TD_CA -0.5 1.5
+TD_DA 90.5 1.5
+
+#Time delay boundary
+TD_boundary_min 0   
+TD_boundary_max 6000
+
+##MCMC setup
+
+N_parameters 4
+N_walkers 100
+burn_in 100  #don't change this unless you know what it means
+N_steps 200
