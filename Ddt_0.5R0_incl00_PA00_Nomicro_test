@@ -1,9 +1,9 @@
 ##Input info
 
 #Fermat potential diff
-tau_BA ../Fermat/total_BA
-tau_CA ../Fermat/total_CA
-tau_DA ../Fermat/total_DA
+tau_BA ../Fermat/total_BA.fits
+tau_CA ../Fermat/total_CA.fits
+tau_DA ../Fermat/total_DA.fits
 
 #time delays 
 TD_BA 1.5 1.5
