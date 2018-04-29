@@ -16,7 +16,7 @@ TD_BA 1.5 1.5
 TD_CA -0.5 1.5
 TD_DA 90.5 1.5
 
-#Time delay boundary
+#Time-delay distance boundary
 TD_boundary_min 0   
 TD_boundary_max 6000
 
