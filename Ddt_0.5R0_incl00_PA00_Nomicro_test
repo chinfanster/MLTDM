@@ -19,4 +19,4 @@ TD_boundary_max 6000
 N_parameters 4
 N_walkers 100
 burn_in 100  #don't change this unless you know what it means
-N_steps 200
+N_steps 20000
